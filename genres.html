@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Genres — SoundWave</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">🎵 Sound<span class="dot">Wave</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="artists.html">Artists</a>
+    <a href="albums.html">Albums</a>
+    <a href="charts.html">Charts</a>
+    <a href="genres.html">Genres</a>
+    <a href="events.html">Events</a>
+    <a href="news.html">News</a>
+    <a href="videos.html">Videos</a>
+    <a href="radio.html">Radio</a>
+    <a href="player.html">Player</a>
+  </div>
+  <div class="nav-search">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" placeholder="Search genres…">
+  </div>
+  <div class="nav-avatar">U</div>
+</nav>
+
+<div class="page pb-player">
+
+  <div class="page-header">
+    <div class="breadcrumb"><a href="index.html">Home</a> › Genres</div>
+    <h1>Music Genres</h1>
+    <p>Explore every genre and mood — from timeless classics to cutting-edge sounds</p>
+  </div>
+
+  <!-- MAIN GENRES -->
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Main <span>Genres</span></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+
+      <div class="genre-card" style="background:linear-gradient(135deg,#1a0050,#4a0080)">
+        <div class="genre-emoji">🎸</div>
+        <h3>Rock</h3>
+        <p>Classic, progressive, indie and alternative rock across every decade</p>
+        <div class="song-count">2.4M songs · 148K artists</div>
+      </div>
+      <div class="genre-card" style="background:linear-gradient(135deg,#0a1f00,#1a4a00)">
+        <div class="genre-emoji">🎤</div>
+        <h3>Hip-Hop & Rap</h3>
+        <p>Boom bap, trap, drill, conscious rap, and everything in between</p>
+        <div class="song-count">3.1M songs · 210K artists</div>
+      </div>
+      <div class="genre-card" style="background:linear-gradient(135deg,#1a0a00,#3d2000)">
+        <div class="genre-emoji">💃</div>
+        <h3>Electronic</h3>
+        <p>House, techno, trance, ambient, and every spectrum of electronic music</p>
+        <div class="song-count">4.7M songs · 320K artists</div>
+      </div>
+      <div class="genre-card" style="background:linear-gradient(135deg,#1a0015,#400030)">
+        <div class="genre-emoji">🎹</div>
+        <h3>Pop</h3>
+        <p>Mainstream hits, synth-pop, bubblegum, and chart-topping anthems</p>
+        <div class="song-count">5.2M songs · 480K artists</div>
+      </div>
+      <div class="genre-card" style="background:linear-gradient(135deg,#00101a,#002540)">
+        <div class="genre-emoji">🎷</div>
+        <h3>R&B & Soul</h3>
+        <p>Neo-soul, contemporary R&B, classic soul, and motown legends</p>
+        <div class="song-count">1.8M songs · 95K artists</div>
+      </div>
+      <div class="genre-card" style="background:linear-gradient(135deg,#1a0800,#3d1800)">
+        <div class="genre-emoji">🎻</div>
+        <h3>Jazz</h3>
+        <p>Bebop, fusion, smooth jazz, swing, and avant-garde improvisation</p>
+        <div class="song-count">900K songs · 72K artists</div>
+      </div>
+      <div class="genre-card" style="background:linear-gradient(135deg,#0a001a,#1e0040)">
+        <div class="genre-emoji">🎺</div>
+        <h3>Classical</h3>
+        <p>Orchestral, chamber music, opera, and centuries of masterworks</p>
+        <div class="song-count">1.1M songs · 42K composers</div>
+      </div>
+      <div class="genre-card" style="background:linear-gradient(135deg,#101500,#2a3500)">
+        <div class="genre-emoji">🤠</div>
+        <h3>Country</h3>
+        <p>Classic country, bluegrass, outlaw country, and modern country-pop</p>
+        <div class="song-count">1.4M songs · 88K artists</div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SUB-GENRES -->
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Electronic <span>Sub-Genres</span></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:12px">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;cursor:pointer;transition:all 0.2s" onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(233,30,140,0.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--surface)'">
+        <div style="font-size:24px;margin-bottom:8px">🏠</div>
+        <div style="font-weight:700;font-size:14px">House</div>
+        <div style="font-size:11px;color:var(--muted)">Deep, Tech, Acid</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;cursor:pointer;transition:all 0.2s" onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(233,30,140,0.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--surface)'">
+        <div style="font-size:24px;margin-bottom:8px">⚙️</div>
+        <div style="font-weight:700;font-size:14px">Techno</div>
+        <div style="font-size:11px;color:var(--muted)">Minimal, Industrial</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;cursor:pointer;transition:all 0.2s" onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(233,30,140,0.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--surface)'">
+        <div style="font-size:24px;margin-bottom:8px">🌀</div>
+        <div style="font-weight:700;font-size:14px">Trance</div>
+        <div style="font-size:11px;color:var(--muted)">Progressive, Psytrance</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;cursor:pointer;transition:all 0.2s" onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(233,30,140,0.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--surface)'">
+        <div style="font-size:24px;margin-bottom:8px">💥</div>
+        <div style="font-weight:700;font-size:14px">Dubstep</div>
+        <div style="font-size:11px;color:var(--muted)">Brostep, Future Bass</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;cursor:pointer;transition:all 0.2s" onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(233,30,140,0.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--surface)'">
+        <div style="font-size:24px;margin-bottom:8px">🌊</div>
+        <div style="font-weight:700;font-size:14px">Ambient</div>
+        <div style="font-size:11px;color:var(--muted)">Drone, New Age</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;cursor:pointer;transition:all 0.2s" onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(233,30,140,0.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--surface)'">
+        <div style="font-size:24px;margin-bottom:8px">🕹️</div>
+        <div style="font-weight:700;font-size:14px">Synthwave</div>
+        <div style="font-size:11px;color:var(--muted)">Retrowave, Outrun</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;cursor:pointer;transition:all 0.2s" onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(233,30,140,0.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--surface)'">
+        <div style="font-size:24px;margin-bottom:8px">🎭</div>
+        <div style="font-weight:700;font-size:14px">Drum & Bass</div>
+        <div style="font-size:11px;color:var(--muted)">Liquid, Jump Up</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;cursor:pointer;transition:all 0.2s" onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(233,30,140,0.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--surface)'">
+        <div style="font-size:24px;margin-bottom:8px">🌐</div>
+        <div style="font-weight:700;font-size:14px">IDM</div>
+        <div style="font-size:11px;color:var(--muted)">Glitch, Experimental</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;cursor:pointer;transition:all 0.2s" onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(233,30,140,0.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--surface)'">
+        <div style="font-size:24px;margin-bottom:8px">🔊</div>
+        <div style="font-weight:700;font-size:14px">Big Room</div>
+        <div style="font-size:11px;color:var(--muted)">Festival, Electro</div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px;cursor:pointer;transition:all 0.2s" onmouseover="this.style.borderColor='var(--accent)';this.style.background='rgba(233,30,140,0.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.background='var(--surface)'">
+        <div style="font-size:24px;margin-bottom:8px">🌙</div>
+        <div style="font-weight:700;font-size:14px">Lo-fi</div>
+        <div style="font-size:11px;color:var(--muted)">Chill Hop, Beats</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- MOOD PLAYLISTS -->
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Browse by <span>Mood</span></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:12px">
+      <div style="background:linear-gradient(135deg,#e91e8c22,#9c27b022);border:1px solid rgba(233,30,140,0.2);border-radius:12px;padding:20px 16px;text-align:center;cursor:pointer;transition:all 0.2s" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'">
+        <div style="font-size:32px;margin-bottom:10px">😊</div>
+        <div style="font-weight:700;font-size:14px">Happy</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:4px">1.2M songs</div>
+      </div>
+      <div style="background:linear-gradient(135deg,#2196f322,#1565c022);border:1px solid rgba(33,150,243,0.2);border-radius:12px;padding:20px 16px;text-align:center;cursor:pointer;transition:all 0.2s" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'">
+        <div style="font-size:32px;margin-bottom:10px">😢</div>
+        <div style="font-weight:700;font-size:14px">Sad</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:4px">890K songs</div>
+      </div>
+      <div style="background:linear-gradient(135deg,#ff980022,#f4433622);border:1px solid rgba(255,152,0,0.2);border-radius:12px;padding:20px 16px;text-align:center;cursor:pointer;transition:all 0.2s" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'">
+        <div style="font-size:32px;margin-bottom:10px">💪</div>
+        <div style="font-weight:700;font-size:14px">Workout</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:4px">640K songs</div>
+      </div>
+      <div style="background:linear-gradient(135deg,#4caf5022,#00bcd422);border:1px solid rgba(76,175,80,0.2);border-radius:12px;padding:20px 16px;text-align:center;cursor:pointer;transition:all 0.2s" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'">
+        <div style="font-size:32px;margin-bottom:10px">😴</div>
+        <div style="font-weight:700;font-size:14px">Sleep</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:4px">320K songs</div>
+      </div>
+      <div style="background:linear-gradient(135deg,#9c27b022,#7b1fa222);border:1px solid rgba(156,39,176,0.2);border-radius:12px;padding:20px 16px;text-align:center;cursor:pointer;transition:all 0.2s" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'">
+        <div style="font-size:32px;margin-bottom:10px">🎉</div>
+        <div style="font-weight:700;font-size:14px">Party</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:4px">780K songs</div>
+      </div>
+      <div style="background:linear-gradient(135deg,#00bcd422,#0097a722);border:1px solid rgba(0,188,212,0.2);border-radius:12px;padding:20px 16px;text-align:center;cursor:pointer;transition:all 0.2s" onmouseover="this.style.transform='translateY(-4px)'" onmouseout="this.style.transform='translateY(0)'">
+        <div style="font-size:32px;margin-bottom:10px">📚</div>
+        <div style="font-weight:700;font-size:14px">Focus</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:4px">410K songs</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- PLAYER BAR -->
+<div class="player-bar">
+  <div class="player-track">
+    <div class="track-icon">🎵</div>
+    <div class="track-text"><h4>Neon Dreams</h4><p>Aria Nova</p></div>
+    <button class="like-btn ctrl-btn" style="font-size:18px;margin-left:8px">♡</button>
+  </div>
+  <div class="player-controls">
+    <div class="controls">
+      <button class="ctrl-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg></button>
+      <button class="ctrl-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="19,20 9,12 19,4"/><line x1="5" y1="19" x2="5" y2="5" stroke="currentColor" stroke-width="2"/></svg></button>
+      <button class="ctrl-btn play-pause" id="playPauseBtn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></button>
+      <button class="ctrl-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,4 15,12 5,20"/><line x1="19" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2"/></svg></button>
+      <button class="ctrl-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></button>
+    </div>
+    <div class="progress-bar">
+      <span id="elapsed">1:18</span>
+      <div class="progress-track" id="progressTrack"><div class="progress-fill" id="progressFill" style="width:35%"></div></div>
+      <span>3:42</span>
+    </div>
+  </div>
+  <div class="player-vol">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--muted)"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+    <div class="vol-track" id="volTrack"><div class="vol-fill" id="volFill" style="width:70%"></div></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
