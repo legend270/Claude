@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SoundWave — Discover. Stream. Experience.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="index.html" class="nav-logo">🎵 Sound<span class="dot">Wave</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="artists.html">Artists</a>
+    <a href="albums.html">Albums</a>
+    <a href="charts.html">Charts</a>
+    <a href="genres.html">Genres</a>
+    <a href="events.html">Events</a>
+    <a href="news.html">News</a>
+    <a href="videos.html">Videos</a>
+    <a href="radio.html">Radio</a>
+    <a href="player.html">Player</a>
+  </div>
+  <div class="nav-search">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" placeholder="Search music, artists…">
+  </div>
+  <div class="nav-avatar">U</div>
+</nav>
+
+<div class="page pb-player">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-tag">🔥 Now Trending</div>
+      <h1>Feel the<br><em>Rhythm</em> of<br>the World</h1>
+      <p>Stream 100 million songs, discover new artists, and experience music like never before. Your soundtrack, redefined.</p>
+      <div class="hero-btns">
+        <a href="player.html" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
+          Start Listening
+        </a>
+        <a href="artists.html" class="btn btn-outline">Browse Artists</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="val">100<span>M+</span></div>
+      <div class="label">Songs Available</div>
+    </div>
+    <div class="stat-item">
+      <div class="val">8<span>M+</span></div>
+      <div class="label">Artists</div>
+    </div>
+    <div class="stat-item">
+      <div class="val">500<span>K+</span></div>
+      <div class="label">Albums</div>
+    </div>
+    <div class="stat-item">
+      <div class="val">120<span>+</span></div>
+      <div class="label">Countries</div>
+    </div>
+    <div class="stat-item">
+      <div class="val">50<span>M+</span></div>
+      <div class="label">Active Users</div>
+    </div>
+  </div>
+
+  <!-- FEATURED ARTISTS -->
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Featured <span>Artists</span></h2>
+      <a href="artists.html" class="section-link">View All →</a>
+    </div>
+    <div class="grid-5 search-target">
+      <div class="card artist-card" data-search="aria nova pop electronic">
+        <div class="avatar" style="background:linear-gradient(135deg,#e91e8c,#9c27b0)">AN</div>
+        <h3>Aria Nova</h3>
+        <p>Pop · Electronic</p>
+        <div class="followers">42.3M followers</div>
+        <div style="margin-top:12px;display:flex;gap:8px;justify-content:center">
+          <span class="badge badge-hot">Hot</span>
+          <span class="badge badge-new">New</span>
+        </div>
+      </div>
+      <div class="card artist-card" data-search="the midnight synthwave retrowave">
+        <div class="avatar" style="background:linear-gradient(135deg,#00bcd4,#3f51b5)">TM</div>
+        <h3>The Midnight</h3>
+        <p>Synthwave · Retrowave</p>
+        <div class="followers">18.7M followers</div>
+        <div style="margin-top:12px;display:flex;gap:8px;justify-content:center">
+          <span class="badge badge-gold">Gold</span>
+        </div>
+      </div>
+      <div class="card artist-card" data-search="lumos indie folk acoustic">
+        <div class="avatar" style="background:linear-gradient(135deg,#ff9800,#f44336)">LX</div>
+        <h3>Lumos</h3>
+        <p>Indie · Folk</p>
+        <div class="followers">9.1M followers</div>
+      </div>
+      <div class="card artist-card" data-search="nova pulse edm dance house">
+        <div class="avatar" style="background:linear-gradient(135deg,#4caf50,#00bcd4)">NP</div>
+        <h3>Nova Pulse</h3>
+        <p>EDM · House</p>
+        <div class="followers">31.5M followers</div>
+        <div style="margin-top:12px;display:flex;gap:8px;justify-content:center">
+          <span class="badge badge-live">Live</span>
+        </div>
+      </div>
+      <div class="card artist-card" data-search="echo chamber alternative rock">
+        <div class="avatar" style="background:linear-gradient(135deg,#607d8b,#9e9e9e)">EC</div>
+        <h3>Echo Chamber</h3>
+        <p>Alternative · Rock</p>
+        <div class="followers">12.8M followers</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOP CHARTS PREVIEW -->
+  <section class="section section-alt" style="padding-top:48px;padding-bottom:48px;">
+    <div class="section-header">
+      <h2 class="section-title">🏆 Top <span>Charts</span> Today</h2>
+      <a href="charts.html" class="section-link">Full Charts →</a>
+    </div>
+    <div class="chart-list" style="max-width:700px">
+      <div class="song-row">
+        <div class="rank"><span class="rank-badge rank-1">1</span></div>
+        <div class="song-cover" style="background:linear-gradient(135deg,#e91e8c,#9c27b0)">🎵</div>
+        <div class="song-info"><h4>Neon Dreams</h4><p>Aria Nova</p></div>
+        <span class="trend-up">▲ 2</span>
+        <div class="duration">3:42</div>
+        <div class="song-actions">
+          <button class="btn btn-sm btn-primary">▶</button>
+          <button class="like-btn ctrl-btn" data-tip="Like">♡</button>
+        </div>
+      </div>
+      <div class="song-row">
+        <div class="rank"><span class="rank-badge rank-2">2</span></div>
+        <div class="song-cover" style="background:linear-gradient(135deg,#00bcd4,#3f51b5)">🎶</div>
+        <div class="song-info"><h4>Midnight Run</h4><p>The Midnight</p></div>
+        <span class="trend-same">— 0</span>
+        <div class="duration">4:18</div>
+        <div class="song-actions">
+          <button class="btn btn-sm btn-primary">▶</button>
+          <button class="like-btn ctrl-btn" data-tip="Like">♡</button>
+        </div>
+      </div>
+      <div class="song-row">
+        <div class="rank"><span class="rank-badge rank-3">3</span></div>
+        <div class="song-cover" style="background:linear-gradient(135deg,#4caf50,#00bcd4)">🎸</div>
+        <div class="song-info"><h4>Electric Sunrise</h4><p>Nova Pulse</p></div>
+        <span class="trend-up">▲ 5</span>
+        <div class="duration">3:55</div>
+        <div class="song-actions">
+          <button class="btn btn-sm btn-primary">▶</button>
+          <button class="like-btn ctrl-btn" data-tip="Like">♡</button>
+        </div>
+      </div>
+      <div class="song-row">
+        <div class="rank" style="font-size:13px;color:var(--muted)">4</div>
+        <div class="song-cover" style="background:linear-gradient(135deg,#ff9800,#f44336)">🎤</div>
+        <div class="song-info"><h4>Golden Hour</h4><p>Lumos</p></div>
+        <span class="trend-down">▼ 1</span>
+        <div class="duration">4:02</div>
+        <div class="song-actions">
+          <button class="btn btn-sm btn-primary">▶</button>
+          <button class="like-btn ctrl-btn" data-tip="Like">♡</button>
+        </div>
+      </div>
+      <div class="song-row">
+        <div class="rank" style="font-size:13px;color:var(--muted)">5</div>
+        <div class="song-cover" style="background:linear-gradient(135deg,#607d8b,#9e9e9e)">🎻</div>
+        <div class="song-info"><h4>Static Heart</h4><p>Echo Chamber</p></div>
+        <span class="trend-up">▲ 8</span>
+        <div class="duration">5:11</div>
+        <div class="song-actions">
+          <button class="btn btn-sm btn-primary">▶</button>
+          <button class="like-btn ctrl-btn" data-tip="Like">♡</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW ALBUMS -->
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">New <span>Albums</span></h2>
+      <a href="albums.html" class="section-link">View All →</a>
+    </div>
+    <div class="grid-4">
+      <div class="card album-card">
+        <div class="cover" style="background:linear-gradient(135deg,#e91e8c,#9c27b0)">🌌</div>
+        <div class="cover-overlay"><div class="play-btn-circle">▶</div></div>
+        <div class="info">
+          <h3>Neon Cosmos</h3>
+          <p>Aria Nova</p>
+          <div class="meta"><span>2024 · 12 tracks</span><span class="rating">★ 4.9</span></div>
+        </div>
+      </div>
+      <div class="card album-card">
+        <div class="cover" style="background:linear-gradient(135deg,#00bcd4,#3f51b5)">🌃</div>
+        <div class="cover-overlay"><div class="play-btn-circle">▶</div></div>
+        <div class="info">
+          <h3>Endless Summer</h3>
+          <p>The Midnight</p>
+          <div class="meta"><span>2024 · 10 tracks</span><span class="rating">★ 4.8</span></div>
+        </div>
+      </div>
+      <div class="card album-card">
+        <div class="cover" style="background:linear-gradient(135deg,#4caf50,#00bcd4)">⚡</div>
+        <div class="cover-overlay"><div class="play-btn-circle">▶</div></div>
+        <div class="info">
+          <h3>Voltage</h3>
+          <p>Nova Pulse</p>
+          <div class="meta"><span>2024 · 14 tracks</span><span class="rating">★ 4.7</span></div>
+        </div>
+      </div>
+      <div class="card album-card">
+        <div class="cover" style="background:linear-gradient(135deg,#ff9800,#f44336)">🍂</div>
+        <div class="cover-overlay"><div class="play-btn-circle">▶</div></div>
+        <div class="info">
+          <h3>Autumn Fire</h3>
+          <p>Lumos</p>
+          <div class="meta"><span>2024 · 9 tracks</span><span class="rating">★ 4.6</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED BANNER -->
+  <div class="featured-banner">
+    <div class="featured-banner-content">
+      <h2>SoundWave Premium</h2>
+      <p>Unlimited music, offline listening, lossless audio quality, and zero ads. Cancel anytime.</p>
+      <a href="#" class="btn" style="background:#fff;color:#f0287a;font-weight:800;letter-spacing:-0.02em;box-shadow:0 4px 20px rgba(255,255,255,0.25)">Try Free for 3 Months →</a>
+    </div>
+    <div class="featured-banner-icon">👑</div>
+  </div>
+
+  <!-- GENRES -->
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Browse <span>Genres</span></h2>
+      <a href="genres.html" class="section-link">All Genres →</a>
+    </div>
+    <div class="grid-4">
+      <a href="genres.html" class="genre-card" style="background:linear-gradient(135deg,#1a0050,#3d0070)">
+        <div class="genre-emoji">🎸</div>
+        <h3>Rock</h3>
+        <p>Classic, indie, alternative &amp; more</p>
+        <div class="song-count">2.4M songs</div>
+      </a>
+      <a href="genres.html" class="genre-card" style="background:linear-gradient(135deg,#00200a,#004d1a)">
+        <div class="genre-emoji">🎤</div>
+        <h3>Hip-Hop</h3>
+        <p>Rap, trap, boom bap &amp; more</p>
+        <div class="song-count">3.1M songs</div>
+      </a>
+      <a href="genres.html" class="genre-card" style="background:linear-gradient(135deg,#1a1a00,#3d3a00)">
+        <div class="genre-emoji">💃</div>
+        <h3>Electronic</h3>
+        <p>EDM, house, techno &amp; more</p>
+        <div class="song-count">4.7M songs</div>
+      </a>
+      <a href="genres.html" class="genre-card" style="background:linear-gradient(135deg,#1a0010,#400030)">
+        <div class="genre-emoji">🎹</div>
+        <h3>Pop</h3>
+        <p>Mainstream, synth-pop &amp; more</p>
+        <div class="song-count">5.2M songs</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- UPCOMING EVENTS -->
+  <section class="section section-alt" style="padding-top:48px;padding-bottom:48px;">
+    <div class="section-header">
+      <h2 class="section-title">Upcoming <span>Events</span></h2>
+      <a href="events.html" class="section-link">All Events →</a>
+    </div>
+    <div class="grid-3">
+      <div class="card event-card">
+        <div class="event-date"><span class="day">15</span><span class="month">Apr</span></div>
+        <h3>Aria Nova World Tour</h3>
+        <div class="venue">📍 Madison Square Garden, New York</div>
+        <div class="event-tags"><span class="tag">Pop</span><span class="tag">Electronic</span></div>
+        <div class="price">From $89</div>
+        <button class="btn btn-outline btn-sm" style="margin-top:14px">Get Tickets</button>
+      </div>
+      <div class="card event-card">
+        <div class="event-date"><span class="day">22</span><span class="month">Apr</span></div>
+        <h3>Synthwave Festival 2024</h3>
+        <div class="venue">📍 The O2, London</div>
+        <div class="event-tags"><span class="tag">Synthwave</span><span class="tag">Retrowave</span></div>
+        <div class="price">From $65</div>
+        <button class="btn btn-outline btn-sm" style="margin-top:14px">Get Tickets</button>
+      </div>
+      <div class="card event-card">
+        <div class="event-date"><span class="day">01</span><span class="month">May</span></div>
+        <h3>Nova Pulse Live Set</h3>
+        <div class="venue">📍 Berghain, Berlin</div>
+        <div class="event-tags"><span class="tag">EDM</span><span class="tag">House</span><span class="tag">Techno</span></div>
+        <div class="price">From $40</div>
+        <button class="btn btn-outline btn-sm" style="margin-top:14px">Get Tickets</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST NEWS -->
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Latest <span>News</span></h2>
+      <a href="news.html" class="section-link">All Articles →</a>
+    </div>
+    <div class="grid-3">
+      <div class="card news-card">
+        <div class="news-img">📰</div>
+        <div class="news-body">
+          <div class="news-meta"><span class="category">Industry</span><span>2 hours ago</span></div>
+          <h3>Streaming revenues hit record $20 billion in 2024</h3>
+          <p>Global music streaming revenue surpassed $20 billion for the first time, driven by subscriber growth in emerging markets…</p>
+        </div>
+      </div>
+      <div class="card news-card">
+        <div class="news-img">🎙️</div>
+        <div class="news-body">
+          <div class="news-meta"><span class="category">Artist</span><span>5 hours ago</span></div>
+          <h3>Aria Nova announces surprise album drop this Friday</h3>
+          <p>The pop superstar teased a 14-track studio album on social media, sending fans into a frenzy worldwide…</p>
+        </div>
+      </div>
+      <div class="card news-card">
+        <div class="news-img">🏆</div>
+        <div class="news-body">
+          <div class="news-meta"><span class="category">Awards</span><span>1 day ago</span></div>
+          <h3>Grammy nominations 2025 — full list revealed</h3>
+          <p>The Recording Academy unveiled the nominees for the 67th Grammy Awards, with multiple first-time artists making history…</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>🎵 Sound<span>Wave</span></h3>
+      <p>The world's largest music streaming platform. Discover, stream, and share music from millions of artists worldwide.</p>
+      <div class="social-links" style="margin-top:20px">
+        <a class="social-link" href="#">𝕏</a>
+        <a class="social-link" href="#">in</a>
+        <a class="social-link" href="#">f</a>
+        <a class="social-link" href="#">▶</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Discover</h4>
+      <ul>
+        <li><a href="charts.html">Top Charts</a></li>
+        <li><a href="genres.html">Genres</a></li>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="albums.html">New Releases</a></li>
+        <li><a href="radio.html">Radio</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Experience</h4>
+      <ul>
+        <li><a href="player.html">Music Player</a></li>
+        <li><a href="videos.html">Music Videos</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="#">Podcasts</a></li>
+        <li><a href="#">Live Radio</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="news.html">Blog</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Investors</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Cookie Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2024 SoundWave Inc. All rights reserved.</span>
+    <span>Made with 🎵 for music lovers</span>
+  </div>
+</footer>
+
+<!-- PLAYER BAR -->
+<div class="player-bar">
+  <div class="player-track">
+    <div class="track-icon">🎵</div>
+    <div class="track-text">
+      <h4>Neon Dreams</h4>
+      <p>Aria Nova · Neon Cosmos</p>
+    </div>
+    <button class="like-btn ctrl-btn" style="font-size:18px;margin-left:8px" data-tip="Add to Liked Songs">♡</button>
+  </div>
+  <div class="player-controls">
+    <div class="controls">
+      <button class="ctrl-btn" data-tip="Shuffle">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
+      </button>
+      <button class="ctrl-btn" data-tip="Previous">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="19,20 9,12 19,4"/><line x1="5" y1="19" x2="5" y2="5" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
+      <button class="ctrl-btn play-pause" id="playPauseBtn" data-tip="Play">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
+      </button>
+      <button class="ctrl-btn" data-tip="Next">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,4 15,12 5,20"/><line x1="19" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2"/></svg>
+      </button>
+      <button class="ctrl-btn" data-tip="Repeat">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+      </button>
+    </div>
+    <div class="progress-bar">
+      <span id="elapsed">1:18</span>
+      <div class="progress-track" id="progressTrack">
+        <div class="progress-fill" id="progressFill" style="width:35%"></div>
+      </div>
+      <span>3:42</span>
+    </div>
+  </div>
+  <div class="player-vol">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--muted)"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+    <div class="vol-track" id="volTrack">
+      <div class="vol-fill" id="volFill" style="width:70%"></div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
