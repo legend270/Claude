@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Videos — SoundWave</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">🎵 Sound<span class="dot">Wave</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="artists.html">Artists</a>
+    <a href="albums.html">Albums</a>
+    <a href="charts.html">Charts</a>
+    <a href="genres.html">Genres</a>
+    <a href="events.html">Events</a>
+    <a href="news.html">News</a>
+    <a href="videos.html">Videos</a>
+    <a href="radio.html">Radio</a>
+    <a href="player.html">Player</a>
+  </div>
+  <div class="nav-search">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" placeholder="Search videos…">
+  </div>
+  <div class="nav-avatar">U</div>
+</nav>
+
+<div class="page pb-player">
+
+  <div class="page-header">
+    <div class="breadcrumb"><a href="index.html">Home</a> › Videos</div>
+    <h1>Music Videos</h1>
+    <p>Official music videos, live performances, and exclusive behind-the-scenes content</p>
+  </div>
+
+  <!-- FILTER -->
+  <div class="filter-bar">
+    <button class="filter-btn active">All</button>
+    <button class="filter-btn">Official Videos</button>
+    <button class="filter-btn">Live Performances</button>
+    <button class="filter-btn">Behind the Scenes</button>
+    <button class="filter-btn">Acoustic</button>
+    <button class="filter-btn">Lyric Videos</button>
+    <button class="filter-btn">Interviews</button>
+  </div>
+
+  <!-- FEATURED VIDEO -->
+  <div style="margin:0 48px 40px;background:var(--surface);border-radius:20px;border:1px solid var(--border);overflow:hidden">
+    <div style="background:linear-gradient(135deg,#1a0030,#0a0a3a);aspect-ratio:21/9;display:flex;align-items:center;justify-content:center;font-size:100px;position:relative;max-height:420px">
+      🎬
+      <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.3)">
+        <button style="width:80px;height:80px;border-radius:50%;background:rgba(233,30,140,0.9);border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:28px;color:#fff;transition:transform 0.2s;box-shadow:0 8px 30px rgba(233,30,140,0.5)" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">▶</button>
+      </div>
+      <div style="position:absolute;top:20px;left:20px"><span class="badge badge-new">New Video</span></div>
+      <div style="position:absolute;bottom:20px;right:20px;background:rgba(0,0,0,0.7);padding:4px 10px;border-radius:6px;font-size:13px">4:02</div>
+    </div>
+    <div style="padding:20px;display:flex;align-items:center;gap:16px">
+      <div style="width:48px;height:48px;border-radius:8px;background:linear-gradient(135deg,#e91e8c,#9c27b0);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">AN</div>
+      <div style="flex:1">
+        <h3 style="font-size:18px;font-weight:800">Neon Dreams — Official Music Video</h3>
+        <p style="color:var(--muted);font-size:13px">Aria Nova · 142.3M views · 2 days ago</p>
+      </div>
+      <div style="display:flex;gap:10px">
+        <button class="btn btn-outline btn-sm">👍 4.2M</button>
+        <button class="btn btn-outline btn-sm">🔗 Share</button>
+        <button class="btn btn-outline btn-sm">+ Playlist</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIDEO GRID -->
+  <section class="section" style="padding-top:0">
+    <div class="section-header">
+      <h2 class="section-title">🎬 Latest <span>Videos</span></h2>
+    </div>
+    <div class="grid-3">
+
+      <div class="card video-card">
+        <div class="thumb" style="background:linear-gradient(135deg,#00bcd4,#3f51b5)">🌃
+          <div class="thumb-overlay"><div class="play-triangle">▶</div></div>
+          <div style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.8);padding:3px 8px;border-radius:4px;font-size:12px">4:18</div>
+        </div>
+        <div class="vinfo">
+          <h3>Midnight Run — Official Video</h3>
+          <p>The Midnight</p>
+          <div class="views">👁 78.5M views · 1 week ago</div>
+        </div>
+      </div>
+
+      <div class="card video-card">
+        <div class="thumb" style="background:linear-gradient(135deg,#4caf50,#00bcd4)">⚡
+          <div class="thumb-overlay"><div class="play-triangle">▶</div></div>
+          <div style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.8);padding:3px 8px;border-radius:4px;font-size:12px">3:55</div>
+        </div>
+        <div class="vinfo">
+          <h3>Electric Sunrise — Official Video</h3>
+          <p>Nova Pulse</p>
+          <div class="views">👁 55.2M views · 2 weeks ago</div>
+        </div>
+      </div>
+
+      <div class="card video-card">
+        <div class="thumb" style="background:linear-gradient(135deg,#ff9800,#f44336)">🍂
+          <div class="thumb-overlay"><div class="play-triangle">▶</div></div>
+          <div style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.8);padding:3px 8px;border-radius:4px;font-size:12px">4:02</div>
+        </div>
+        <div class="vinfo">
+          <h3>Golden Hour — Official Video</h3>
+          <p>Lumos</p>
+          <div class="views">👁 41.8M views · 3 weeks ago</div>
+        </div>
+      </div>
+
+      <div class="card video-card">
+        <div class="thumb" style="background:linear-gradient(135deg,#607d8b,#9e9e9e)">🎸
+          <div class="thumb-overlay"><div class="play-triangle">▶</div></div>
+          <div style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.8);padding:3px 8px;border-radius:4px;font-size:12px">5:11</div>
+          <div style="position:absolute;top:10px;left:10px"><span class="badge badge-live">Live</span></div>
+        </div>
+        <div class="vinfo">
+          <h3>Static Heart — Live at Glastonbury</h3>
+          <p>Echo Chamber</p>
+          <div class="views">👁 28.3M views · 1 month ago</div>
+        </div>
+      </div>
+
+      <div class="card video-card">
+        <div class="thumb" style="background:linear-gradient(135deg,#212121,#ffd600)">🏙️
+          <div class="thumb-overlay"><div class="play-triangle">▶</div></div>
+          <div style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.8);padding:3px 8px;border-radius:4px;font-size:12px">3:28</div>
+        </div>
+        <div class="vinfo">
+          <h3>Concrete Jungle — Official Video</h3>
+          <p>Ray Atlas</p>
+          <div class="views">👁 62.1M views · 2 weeks ago</div>
+        </div>
+      </div>
+
+      <div class="card video-card">
+        <div class="thumb" style="background:linear-gradient(135deg,#009688,#4caf50)">💧
+          <div class="thumb-overlay"><div class="play-triangle">▶</div></div>
+          <div style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.8);padding:3px 8px;border-radius:4px;font-size:12px">4:33</div>
+        </div>
+        <div class="vinfo">
+          <h3>River of Stars — Official Video</h3>
+          <p>Jade River</p>
+          <div class="views">👁 33.7M views · 1 month ago</div>
+        </div>
+      </div>
+
+      <div class="card video-card">
+        <div class="thumb" style="background:linear-gradient(135deg,#7986cb,#9c27b0)">💫
+          <div class="thumb-overlay"><div class="play-triangle">▶</div></div>
+          <div style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.8);padding:3px 8px;border-radius:4px;font-size:12px">6:02</div>
+          <div style="position:absolute;top:10px;left:10px"><span class="badge badge-new">New</span></div>
+        </div>
+        <div class="vinfo">
+          <h3>Violet Haze — Lyric Video</h3>
+          <p>Crystal Void</p>
+          <div class="views">👁 19.4M views · 4 days ago</div>
+        </div>
+      </div>
+
+      <div class="card video-card">
+        <div class="thumb" style="background:linear-gradient(135deg,#8d1c1c,#d32f2f)">🔥
+          <div class="thumb-overlay"><div class="play-triangle">▶</div></div>
+          <div style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.8);padding:3px 8px;border-radius:4px;font-size:12px">4:48</div>
+          <div style="position:absolute;top:10px;left:10px"><span class="badge badge-gold">Remastered</span></div>
+        </div>
+        <div class="vinfo">
+          <h3>Bleed the Blues — Remastered 4K</h3>
+          <p>Velvet Thunder</p>
+          <div class="views">👁 88.2M views · 2 months ago</div>
+        </div>
+      </div>
+
+      <div class="card video-card">
+        <div class="thumb" style="background:linear-gradient(135deg,#1a237e,#0288d1)">🌌
+          <div class="thumb-overlay"><div class="play-triangle">▶</div></div>
+          <div style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.8);padding:3px 8px;border-radius:4px;font-size:12px">7:14</div>
+        </div>
+        <div class="vinfo">
+          <h3>Orbit — Visualizer</h3>
+          <p>Stellar Drift</p>
+          <div class="views">👁 14.8M views · 1 week ago</div>
+        </div>
+      </div>
+
+    </div>
+    <div style="display:flex;justify-content:center;padding:24px 0">
+      <button class="btn btn-outline">Load More Videos</button>
+    </div>
+  </section>
+
+</div>
+
+<!-- PLAYER BAR -->
+<div class="player-bar">
+  <div class="player-track">
+    <div class="track-icon">🎵</div>
+    <div class="track-text"><h4>Neon Dreams</h4><p>Aria Nova</p></div>
+    <button class="like-btn ctrl-btn" style="font-size:18px;margin-left:8px">♡</button>
+  </div>
+  <div class="player-controls">
+    <div class="controls">
+      <button class="ctrl-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg></button>
+      <button class="ctrl-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="19,20 9,12 19,4"/><line x1="5" y1="19" x2="5" y2="5" stroke="currentColor" stroke-width="2"/></svg></button>
+      <button class="ctrl-btn play-pause" id="playPauseBtn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg></button>
+      <button class="ctrl-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,4 15,12 5,20"/><line x1="19" y1="5" x2="19" y2="19" stroke="currentColor" stroke-width="2"/></svg></button>
+      <button class="ctrl-btn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></button>
+    </div>
+    <div class="progress-bar">
+      <span id="elapsed">1:18</span>
+      <div class="progress-track" id="progressTrack"><div class="progress-fill" id="progressFill" style="width:35%"></div></div>
+      <span>3:42</span>
+    </div>
+  </div>
+  <div class="player-vol">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--muted)"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+    <div class="vol-track" id="volTrack"><div class="vol-fill" id="volFill" style="width:70%"></div></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
